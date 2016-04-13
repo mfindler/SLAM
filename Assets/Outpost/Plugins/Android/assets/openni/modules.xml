@@ -1,0 +1,8 @@
+<Modules>
+    <Module path="libXnDeviceSensorV2.so" configDir="" />
+    <Module path="libPrimeClient.so" configDir="" />
+    <Module path="libXnDeviceFile.so" />
+    <Module path="libnimMockNodes.so" />
+    <Module path="libnimCodecs.so" />
+    <Module path="libnimRecorder.so" />
+</Modules>
