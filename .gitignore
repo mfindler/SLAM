@@ -24,7 +24,7 @@ Obj
 obj
 
 # ===================================== #
-# Visual Studio / MonoDevelop generated
+# Visual Studio / MonoDevelop / UltraEdit generated
 # ===================================== #
 ExportedObj/
 *.svd
@@ -36,6 +36,7 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+*.bak
 
 # ===================================== #
 # OS generated
