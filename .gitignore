@@ -12,6 +12,7 @@
 
 # Unity3D generated meta files
 *.pidb.meta
+*.meta
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -24,7 +25,7 @@ Obj
 obj
 
 # ===================================== #
-# Visual Studio / MonoDevelop generated
+# Visual Studio / MonoDevelop / UltraEdit generated
 # ===================================== #
 ExportedObj/
 *.svd
@@ -36,6 +37,7 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+*.bak
 
 # ===================================== #
 # OS generated
@@ -69,6 +71,7 @@ $RECYCLE.BIN/
 # PROJECT-RELATED
 Assets/_Content/GUI
 Assets/zNotes
+Assets/Standard Assets
 
 # COPYRIGHTED / ASSET STORE
 zAssets
