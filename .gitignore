@@ -39,6 +39,7 @@ ExportedObj/
 *.unityproj
 *.booproj
 *.bak
+*.meta
 
 # ===================================== #
 # OS generated
