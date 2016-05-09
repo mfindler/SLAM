@@ -1,4 +1,16 @@
-﻿
+﻿//Project: SLAM
+//NAME OF DEVELOPER: P J SIDDHARTHA
+//PROFESSOR: MICHEAL J. FINDLER
+//Notes: 1. Comments with '////' are regarding the code which are to be worked on. 
+//       2. Comments with '//' are used for commenting some parts of code for testing purpose or description of the method.
+//       3. Comments with '///' are used for code which is not required.
+// Description: This file contains code for the SLAM. Some of the methods used in this code refer to the external libraries
+//              the parts whihc needs to be used from the external libraries are referred using the comments with information
+//              regarding libraires they are using. Please note that the libraries folder in the script folder is the conversion
+//              of the jar (java class files ) to C# (Class files). Some auto generated methods need to be referred as in C# or 
+//              need to be written.
+
+                 
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -382,6 +394,8 @@ public class SLAM_Main : MonoBehaviour
     }
 
     // display global pts and downsampled pts
+    // commented for testing
+
     //private void twoPCTracking()
     //{
 
@@ -638,14 +652,16 @@ public class SLAM_Main : MonoBehaviour
         return camPos;
     }
 
-    // MeshCollider meshc = gameObject.AddComponent(typeof(MeshCollider)) as MeshCollider;
-
-
+  
+    // Used for implementing terrain and using it as a minimap for the code.
     //meshc.sharedMesh = terrain1;
     GameObject Main_Terrain;
 
 
   // initialize slam
+  //// Initialize Slam Needs to be referred from Main Activity.java file from the vgislam folder. 
+  
+  
     public void Initialise()
     {
         //Mesh  Hbd = Main_Terrain.GetComponent<MeshFilter>();
@@ -655,6 +671,7 @@ public class SLAM_Main : MonoBehaviour
 public void update()
 
     {
+        //// Refers the Object path. The object path in this context is refering to .txt file present in the assests folder.
         OBJPath = InputTextFile.ToString();
     }
 
