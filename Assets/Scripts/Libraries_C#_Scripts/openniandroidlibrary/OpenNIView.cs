@@ -22,7 +22,7 @@ namespace org.openni.android
 	  {
 		  private readonly OpenNIView outerInstance;
 
-		internal GLSurfaceView.Renderer(OpenNIView outerInstance)
+		internal GLSurfaceView.Renderer (OpenNIView outerInstance)
 		{
 			this.outerInstance = outerInstance;
 		}

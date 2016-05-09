@@ -1,4 +1,13 @@
-﻿using System.Collections.Generic;
+﻿//Project: SLAM
+//NAME OF DEVELOPER: P J SIDDHARTHA
+//PROFESSOR: MICHEAL J. FINDLER
+//Notes: 1. Comments with '////' are regarding the code which are to be worked on. 
+//       2. Comments with '//' are used for commenting some parts of code for testing purpose.
+//       3. Comments with '///' are used for code which is not required.
+
+
+
+using System.Collections.Generic;
 
 namespace org.openni
 {

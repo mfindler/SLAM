@@ -1,4 +1,12 @@
-﻿/*
+﻿//Project: SLAM
+//NAME OF DEVELOPER: P J SIDDHARTHA
+//PROFESSOR: MICHEAL J. FINDLER
+//Notes: 1. Comments with '////' are regarding the code which are to be worked on. 
+//       2. Comments with '//' are used for commenting some parts of code for testing purpose or description of the method.
+//       3. Comments with '///' are used for code which is not required.
+//Description: This file is used as a reference file for the Temp.cs and Main_Script.cs files of the project. This file is not used in this project.
+//              This is just reference script.
+/* REFERENCE:
  * Software License Agreement (BSD License)
  *
  *  Starry Night Plugin - http://www.vangoghimaging.com/
@@ -7,6 +15,7 @@
  *  All rights reserved.
  *  
  */
+
 
 using UnityEngine;
 using System.Collections;

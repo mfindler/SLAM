@@ -1,4 +1,15 @@
-﻿using UnityEngine;
+﻿//Project: SLAM
+//NAME OF DEVELOPER: P J SIDDHARTHA
+//PROFESSOR: MICHEAL J. FINDLER
+//Notes: 1. Comments with '////' are regarding the code which are to be worked on. 
+//       2. Comments with '//' are used for commenting some parts of code for testing purpose or description of the method.
+//       3. Comments with '///' are used for code which is not required.
+// Description: This file has code for the terrain implementation. In this project two terrains are used. One as the base for the 
+//              robot and the second one is used for the minimap implementation. The idea of using the Terrain for minimap is to
+//              raise the terrain height (mountains) whenever the robot hits an object during its movement. 
+
+
+using UnityEngine;
  using System.Collections;
  
  public class Terrain_minimap : MonoBehaviour

@@ -5,29 +5,29 @@ using System.Runtime.InteropServices;
 namespace com.example.vgislam
 {
 
-	using Builder = android.app.AlertDialog.Builder;
-	using DialogInterface = android.content.DialogInterface;
-	using OnClickListener = android.content.DialogInterface.OnClickListener;
-	using UsbDevice = android.hardware.usb.UsbDevice;
-	using UsbDeviceConnection = android.hardware.usb.UsbDeviceConnection;
-	using Bundle = android.os.Bundle;
-	using Environment = android.os.Environment;
-	using Log = android.util.Log;
-	using UnityPlayerActivity = com.unity3d.player.UnityPlayerActivity;
-	using Context = org.openni.Context;
-	using DepthGenerator = org.openni.DepthGenerator;
-	using DepthMap = org.openni.DepthMap;
-	using GeneralException = org.openni.GeneralException;
-	using MirrorCapability = org.openni.MirrorCapability;
-	using NodeType = org.openni.NodeType;
-	using OutArg = org.openni.OutArg;
-	using ScriptNode = org.openni.ScriptNode;
-	using StatusException = org.openni.StatusException;
-	using OpenNIHelper = org.openni.android.OpenNIHelper;
-	using DevicePermissionListener = org.openni.android.OpenNIHelper.DevicePermissionListener;
-	using OpenNIView = org.openni.android.OpenNIView;
-
-	public class MainActivity : UnityPlayerActivity, OpenNIHelper.DevicePermissionListener
+    using Builder = android.app.AlertDialog.Builder;
+    using DialogInterface = android.content.DialogInterface;
+    using OnClickListener = android.content.DialogInterface.OnClickListener;
+    using UsbDevice = android.hardware.usb.UsbDevice;
+    using UsbDeviceConnection = android.hardware.usb.UsbDeviceConnection;
+    using Bundle = android.os.Bundle;
+    using Environment = android.os.Environment;
+    using Log = android.util.Log;
+    using UnityPlayerActivity = com.unity3d.player.UnityPlayerActivity;
+    using Context = org.openni.Context;
+    using DepthGenerator = org.openni.DepthGenerator;
+    using DepthMap = org.openni.DepthMap;
+    using GeneralException = org.openni.GeneralException;
+    using MirrorCapability = org.openni.MirrorCapability;
+    using NodeType = org.openni.NodeType;
+    using OutArg = org.openni.OutArg;
+    using ScriptNode = org.openni.ScriptNode;
+    using StatusException = org.openni.StatusException;
+    using OpenNIHelper = org.openni.android.OpenNIHelper;
+    using DevicePermissionListener = org.openni.android.OpenNIHelper.DevicePermissionListener;
+    using OpenNIView = org.openni.android.OpenNIView;
+    using System.IO;
+    public class MainActivity : UnityPlayerActivity, OpenNIHelper.DevicePermissionListener
 	{
 		private bool InstanceFieldsInitialized = false;
 
@@ -82,7 +82,7 @@ namespace com.example.vgislam
 //JAVA TO C# CONVERTER TODO TASK: The library is specified in the 'DllImport' attribute for .NET:
 //		System.loadLibrary("VGISLAM");
 
-		File outDir = new File(this.outPath);
+		File outDir = new File(outPath);
 		if (!outDir.exists())
 		{
 		  outDir.mkdir();
